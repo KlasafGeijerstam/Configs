@@ -25,6 +25,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'w0rp/ale'
 Plug 'tpope/vim-fugitive'
+Plug 'wikitopian/hardmode'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 colorscheme gruvbox
