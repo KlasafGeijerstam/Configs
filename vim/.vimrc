@@ -1,7 +1,7 @@
 " Tab as 4 spaces
 set expandtab
 set tabstop=4
-"set cc=80
+"set cc=60
 "match ErrorMsg '\%>80v.\+'
 " for command mode
 nnoremap <S-Tab> <<
@@ -27,6 +27,7 @@ Plug 'w0rp/ale'
 Plug 'tpope/vim-fugitive'
 Plug 'wikitopian/hardmode'
 Plug 'scrooloose/nerdtree'
+Plug 'fidian/hexmode'
 call plug#end()
 
 colorscheme gruvbox
