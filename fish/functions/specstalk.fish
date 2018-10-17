@@ -8,5 +8,6 @@ function specstalk
     for i in (seq 1 (count $comps))
         printf "* %s@%s\n" (string trim $comps[$i]) (string trim $locs[$i])
     end
-    #echo "* Powered by ** Fish **, the friendly interactive shell *"
+    printf "\nSlack: **@klasa**"
+#    echo "**@klasa**"
 end
