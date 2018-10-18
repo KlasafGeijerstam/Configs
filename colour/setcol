@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+# Save this script into set_colors.sh, make this file executable and run it: 
+# 
+# $ chmod +x set_colors.sh 
+# $ ./set_colors.sh 
+# 
+# Alternatively copy lines below directly into your shell. 
+
+gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_background --type bool false 
+gconftool-2 --set /apps/gnome-terminal/profiles/Default/use_theme_colors --type bool false 
+gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/background_color '#0d0d19192626'
+gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/foreground_color '#d9d9e6e6f2f2'
+gconftool-2 -s -t string /apps/gnome-terminal/profiles/Default/palette '#000000000000:#9f9f40404848:#48489f9f4040:#9f9f98984040:#404048489f9f:#989840409f9f:#40409f9f9898:#e6e6e6e6e6e6:#636363636363:#cccc7f7f8585:#8585cccc7f7f:#ccccc5c57f7f:#7f7f8585cccc:#c5c57f7fcccc:#7f7fccccc5c5:#ffffffffffff'
